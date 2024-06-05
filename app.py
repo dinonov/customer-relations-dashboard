@@ -47,7 +47,7 @@ st.subheader(f'Overall: {overall_satisfaction:.2f}%')
 st.write(period_satisfaction_overall)
 
 st.header('SLA')
-overall_sla = overall_sla_df.iloc[0]['overall_sla'] * 100
+overall_sla = overall_sla_df.iloc[0]['overall_sla']
 st.subheader(f'Overall: {overall_sla:.2f}%')
 st.write(period_sla_overall)
 
